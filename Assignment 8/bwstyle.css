@@ -94,7 +94,7 @@ nav ul {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   text-align: center;
   flex: 1;
 }
@@ -149,7 +149,8 @@ main {
 }
 
 .flex-container {
-  background-color: red;
+  /*background-color: red;*/
+  background-color: rgba(0, 255, 0, 0.5); padding: 1%;
   padding: 1%;
   display: flex;
   flex-wrap: wrap;
